@@ -458,7 +458,7 @@ footer {
 
     header nav ul {
         flex-direction: column;
-        gap: 10px;
+        gap: 10 px;
     }
 
     .hero h2 {
@@ -470,7 +470,7 @@ footer {
     }
 
     .hero-content {
-        max-width: 100%;
+        max-width: 30%;
         padding: 10px;
     }
 

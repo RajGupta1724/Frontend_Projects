@@ -497,3 +497,16 @@ footer {
         width: 90%;
     }
 }
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hero-content {
+        max-width: 60%;
+    }
+
+    .menu-item {
+        width: 22%;
+    }
+
+    .order-box {
+        width: 220px;
+    }
+}

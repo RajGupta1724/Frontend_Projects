@@ -446,3 +446,54 @@ footer {
     font-size: 22px;
     margin: 10px 0;
 }
+
+
+
+
+
+@media (max-width: 480px) {
+    header .logo h1 {
+        font-size: 18px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .place-order h2,
+    .menu h2,
+    .order h2,
+    .contact h2 {
+        font-size: 24px;
+    }
+
+    .order-options {
+        gap: 15px;
+    }
+
+    .order-box {
+        padding: 15px;
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+
+    .login-form {
+        width: 90%;
+    }
+}
